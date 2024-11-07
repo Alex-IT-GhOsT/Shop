@@ -1,0 +1,42 @@
+.product-card {
+    @apply flex flex-col;
+}
+
+.product-card img {
+    @apply flex justify-center items-center h-[100px];
+}
+
+.product-card-discount {
+    @apply block flex items-center justify-center w-[40px] h-[22px] bg-[#E52E6B] rounded-[40px] text-white text-xs mt-[10px] mb-[10px] ;
+
+}
+.product-card-superprice {
+    @apply bg-[#F2EBF8] text-[#9457EB] p-1 font-bold text-xs h-[24px] ;
+}
+
+.product-card-current-price {
+    @apply font-bold;
+}
+
+.product-cart-nothave {
+    @apply font-bold text-red-500
+}
+
+.product-card-button  {
+    @apply flex justify-center items-center bg-[#E52E6B] text-white mt-[10px] rounded h-[80px] w-full hover:bg-[#CC397B];
+}
+.product-card-active {
+    @apply flex justify-center items-center bg-white text-[#E52E6B] mt-[10px] border border-[#CC397B] rounded h-[80px] w-full;
+}
+
+.brand-card {
+    @apply rounded-[60px] p-[8px_16px] cursor-pointer border ;
+}
+
+.backet {
+    @apply flex justify-end relative;
+}
+
+.backet-count {
+    @apply flex justify-center items-center w-[30px] rounded-[45px] bg-red-500 text-white absolute top-[-15px] left-[70px] p-[3px];
+}
